@@ -1,0 +1,6 @@
+django
+django-tiymce
+six
+pillow
+django-recaptcha
+fontawesomefree

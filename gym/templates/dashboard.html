@@ -1,0 +1,16 @@
+{# filepath: templates/dashboard.html #}
+{% extends 'base.html' %}
+
+{% block content %}
+    {% if messages %}
+        {% for message in messages %}
+            <p class="text-red-500 text-sm text-center mb-2">{{ message }}</p>
+        {% endfor %}
+    {% endif %}
+
+    {# Main Content #}
+    <div class="text-center mt-20">
+        <h1 class="text-4xl font-bold text-blue-600">Welcome to the Dashboard</h1>
+        <p class="text-lg mt-4">This is your dashboard.</p>
+    </div>
+{% endblock %}
